@@ -1267,6 +1267,13 @@ table.default thead {
 }
 
 /* Section/Article */
+.project-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 section, article {
   margin-bottom: 3em;
 }
@@ -1889,13 +1896,6 @@ body > article {
   }
   .box .image.centered {
     margin-bottom: 1em;
-  }
-  .box .image.featured {
-    position: relative;
-    left: 20px;
-    top: 20px;
-    margin: -50px 0 50px -40px;
-    width: auto;
   }
   .box.style1 {
     max-width: 32em;
